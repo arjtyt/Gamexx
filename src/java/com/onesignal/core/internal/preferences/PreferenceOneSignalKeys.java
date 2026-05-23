@@ -1,0 +1,31 @@
+package com.onesignal.core.internal.preferences;
+
+import com.onesignal.core.BuildConfig;
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: IPreferencesService.kt */
+/* JADX INFO: loaded from: /storage/emulated/0/Documents/jadec/sources/com.gamex.gaming_app/dex-files/0.dex */
+@Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\u0011\bÆ\u0002\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\f\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u000e\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0004X\u0086T¢\u0006\u0002\n\u0000¨\u0006\u0015"}, d2 = {"Lcom/onesignal/core/internal/preferences/PreferenceOneSignalKeys;", "", "()V", "MODEL_STORE_PREFIX", "", "PREFS_LEGACY_APP_ID", "PREFS_LEGACY_PLAYER_ID", "PREFS_LEGACY_USER_SYNCVALUES", PreferenceOneSignalKeys.PREFS_OS_CACHED_IAMS, PreferenceOneSignalKeys.PREFS_OS_CLICKED_CLICK_IDS_IAMS, "PREFS_OS_DISMISSED_IAMS", "PREFS_OS_ETAG_PREFIX", "PREFS_OS_HTTP_CACHE_PREFIX", PreferenceOneSignalKeys.PREFS_OS_IAM_LAST_DISMISSED_TIME, PreferenceOneSignalKeys.PREFS_OS_IMPRESSIONED_IAMS, PreferenceOneSignalKeys.PREFS_OS_INSTALL_ID, "PREFS_OS_LAST_LOCATION_TIME", "PREFS_OS_LOCATION_SHARED", PreferenceOneSignalKeys.PREFS_OS_PAGE_IMPRESSIONED_IAMS, PreferenceOneSignalKeys.PREFS_OS_UNATTRIBUTED_UNIQUE_OUTCOME_EVENTS_SENT, "PREFS_OS_USER_RESOLVED_PERMISSION_PREFIX", BuildConfig.LIBRARY_PACKAGE_NAME}, k = 1, mv = {1, 7, 1}, xi = 48)
+public final class PreferenceOneSignalKeys {
+    public static final PreferenceOneSignalKeys INSTANCE = new PreferenceOneSignalKeys();
+    public static final String MODEL_STORE_PREFIX = "MODEL_STORE_";
+    public static final String PREFS_LEGACY_APP_ID = "GT_APP_ID";
+    public static final String PREFS_LEGACY_PLAYER_ID = "GT_PLAYER_ID";
+    public static final String PREFS_LEGACY_USER_SYNCVALUES = "ONESIGNAL_USERSTATE_SYNCVALYES_CURRENT_STATE";
+    public static final String PREFS_OS_CACHED_IAMS = "PREFS_OS_CACHED_IAMS";
+    public static final String PREFS_OS_CLICKED_CLICK_IDS_IAMS = "PREFS_OS_CLICKED_CLICK_IDS_IAMS";
+    public static final String PREFS_OS_DISMISSED_IAMS = "PREFS_OS_DISPLAYED_IAMS";
+    public static final String PREFS_OS_ETAG_PREFIX = "PREFS_OS_ETAG_PREFIX_";
+    public static final String PREFS_OS_HTTP_CACHE_PREFIX = "PREFS_OS_HTTP_CACHE_PREFIX_";
+    public static final String PREFS_OS_IAM_LAST_DISMISSED_TIME = "PREFS_OS_IAM_LAST_DISMISSED_TIME";
+    public static final String PREFS_OS_IMPRESSIONED_IAMS = "PREFS_OS_IMPRESSIONED_IAMS";
+    public static final String PREFS_OS_INSTALL_ID = "PREFS_OS_INSTALL_ID";
+    public static final String PREFS_OS_LAST_LOCATION_TIME = "OS_LAST_LOCATION_TIME";
+    public static final String PREFS_OS_LOCATION_SHARED = "OS_LOCATION_SHARED";
+    public static final String PREFS_OS_PAGE_IMPRESSIONED_IAMS = "PREFS_OS_PAGE_IMPRESSIONED_IAMS";
+    public static final String PREFS_OS_UNATTRIBUTED_UNIQUE_OUTCOME_EVENTS_SENT = "PREFS_OS_UNATTRIBUTED_UNIQUE_OUTCOME_EVENTS_SENT";
+    public static final String PREFS_OS_USER_RESOLVED_PERMISSION_PREFIX = "USER_RESOLVED_PERMISSION_";
+
+    private PreferenceOneSignalKeys() {
+    }
+}

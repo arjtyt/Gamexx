@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gaming_app="http://schemas.android.com/apk/res-auto">
+  <View android:id="@id/circle_center"
+        android:layout_width="1.0px"
+        android:layout_height="1.0px"
+        gaming_app:layout_constraintBottom_toBottomOf="parent"
+        gaming_app:layout_constraintEnd_toEndOf="parent"
+        gaming_app:layout_constraintStart_toStartOf="parent"
+        gaming_app:layout_constraintTop_toTopOf="parent" />
+</merge>
