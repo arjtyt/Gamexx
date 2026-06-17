@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    namespace 'com.arjteam.store'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.arjteam.store"
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
